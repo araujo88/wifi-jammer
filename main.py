@@ -4,7 +4,6 @@ import threading
 
 # Parameters
 IFACE = "wlan0"
-airodump_timeout = 10
 airodump_output = "output"
 num_packets = 1000
 
@@ -49,11 +48,6 @@ if __name__ == "__main__":
 		if MAC[i] == "Station MAC":
 			STATION = MAC[i+1:len(MAC)]
 			break
-	
-	print(f"BSSIDs: (len = {len(BSSID)}")
-	print(BSSID)
-	print("STATIONS")
-	print(STATION)
 	
 	# Perform deauthetication attack
 	threads = []

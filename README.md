@@ -2,7 +2,7 @@
 
 Continuously perform deauthentication attacks on all detectable stations.
 
-DISCLAIMER: I am not responsible for the misuse of this software for illicit purposes. Remember: with great powers comes great responsibility.
+DISCLAIMER: I am not responsible for the misuse of this software for illicit purposes. Remember: with great power comes great responsibility.
 
 ## Pre-requisites
 

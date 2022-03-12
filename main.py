@@ -23,7 +23,7 @@ def deauth(BSSID, STATION, IFACE, PACKETS):
 
 if __name__ == "__main__":
 
-	if sys.platform == 'win32':
+	if sys.platform == 'linux':
 		# Run shell commands
 		os.system(f"airmon-ng check kill && airmon-ng start {IFACE}") # kills processes to enable monitor mode
 		os.system(f"airodump-ng -w {airodump_output} --output-format csv {IFACE}") # monitors SSIDs and stations and prints to csv file

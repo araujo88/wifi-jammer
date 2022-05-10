@@ -25,3 +25,7 @@ The following utilities are utilized:
 ## Usage
 
 Just run `python3 main.py` and see the magic happens!
+
+## TODO
+
+Create docker image with Kali Linux and necessary tools installed.
